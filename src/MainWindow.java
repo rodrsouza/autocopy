@@ -62,7 +62,7 @@ public class MainWindow {
 		layeredPane.add(lblDest);
 		
 		JButton btnNewButton = new JButton("Seleciona Origem");
-		btnNewButton.setBounds(323, 101, 121, 23);
+		btnNewButton.setBounds(307, 101, 137, 23);
 		frame.getContentPane().add(btnNewButton);
 		
 		JLayeredPane layeredPane_1 = new JLayeredPane();
@@ -82,11 +82,11 @@ public class MainWindow {
 		layeredPane_1.add(lblDestinoView);
 		
 		JButton btnSelecionaDestino = new JButton("Seleciona Destino");
-		btnSelecionaDestino.setBounds(323, 199, 121, 23);
+		btnSelecionaDestino.setBounds(307, 199, 137, 23);
 		frame.getContentPane().add(btnSelecionaDestino);
 		
 		JButton btnNewButton_1 = new JButton("Converte para PDF");
-		btnNewButton_1.setBounds(179, 268, 125, 23);
+		btnNewButton_1.setBounds(179, 268, 155, 23);
 		frame.getContentPane().add(btnNewButton_1);
 	}
 }
